@@ -1,0 +1,48 @@
+import { Testimonial } from "@/types";
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: "t001",
+    name: "Sasha Rodrigo",
+    initials: "SR",
+    rating: 5,
+    text: "Found my dream BMW M4 in less than 48 hours. The verified seller badge gave me confidence and the transaction was completely smooth. VELOCE is the only platform I trust for premium vehicles.",
+    vehicle: "2023 BMW M4 Competition",
+    type: "buyer",
+    location: "Colombo",
+    date: "May 2025",
+  },
+  {
+    id: "t002",
+    name: "Thilak Jayawardena",
+    initials: "TJ",
+    rating: 5,
+    text: "Sold my Porsche in 3 days at asking price. The listing process was effortless and the quality of inquiries was exceptional. No lowballers — just serious buyers.",
+    vehicle: "2021 Porsche 911",
+    type: "seller",
+    location: "Kandy",
+    date: "April 2025",
+  },
+  {
+    id: "t003",
+    name: "Amara Dissanayake",
+    initials: "AD",
+    rating: 5,
+    text: "Switched from a traditional dealer app and never looked back. The interface is stunning, filtering is precise, and I found exactly what I was looking for at the right price.",
+    vehicle: "2022 Tesla Model 3",
+    type: "buyer",
+    location: "Galle",
+    date: "May 2025",
+  },
+  {
+    id: "t004",
+    name: "Nishan Fernando",
+    initials: "NF",
+    rating: 5,
+    text: "As a dealer, VELOCE has transformed how I reach premium buyers. My listings get 3x the quality views compared to any other platform. The verified badge is priceless.",
+    vehicle: "Multiple listings",
+    type: "seller",
+    location: "Colombo",
+    date: "March 2025",
+  },
+];
